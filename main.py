@@ -15,8 +15,7 @@ sub_root_1.parent = root
 tree = TreeGenerator(max_height=4, max_children=3).generate_tree()
 PrintMyTree(tree.root)
 
-
-subtrees_to_remove = KTreeMaximizer(tree).maximize(3)
+subtrees_to_remove = KTreeMaximizer(tree).maximize(10)
 
 print('ANSWER: ')
 for subtree in subtrees_to_remove:
