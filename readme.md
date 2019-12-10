@@ -1,4 +1,4 @@
-This is the projcet where i test the "greedy dynamic programming" approach to solve the problem of maximization the tree no more than in K steps.
+This is the projcet where i test the "greedy dynamic programming" approach to solve the problem of maximization the tree in no more than K steps.
 
 In order to solve the problem of maximization tree in no more than K steps we create a
 DP matrix [maxOperationsCount + 1, nodesCount]. Each column corresponds to the node from nodeCollection
